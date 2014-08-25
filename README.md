@@ -1,4 +1,4 @@
-bioscholarSystem
-================
+sciKnowLabSystem
+==============
 
-The Flex based client for the BioScholar system
+Full client application for the Knowledge Engineering from Experimental Design system.
