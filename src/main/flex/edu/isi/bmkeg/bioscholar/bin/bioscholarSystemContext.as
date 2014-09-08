@@ -1,6 +1,6 @@
 package edu.isi.bmkeg.bioscholar.bin
 {	
-	import edu.isi.bmkeg.kefed.designer.KefedDesignerModule;
+	import edu.isi.bmkeg.kefed.designer.KefedDesignerModule1;
 	import edu.isi.bmkeg.digitalLibraryModule.*;
 	import edu.isi.bmkeg.lapdftextModule.*;
 		
@@ -16,7 +16,7 @@ package edu.isi.bmkeg.bioscholar.bin
 		override public function startup():void
 		{
 			// map the modules so that instances will be properly supplied (injected) with an injector.
-			viewMap.mapType(KefedDesignerModule);		
+			viewMap.mapType(KefedDesignerModule1);		
 			viewMap.mapType(DigitalLibraryModule);		
 			viewMap.mapType(LapdftextModule_xx);		
 		}

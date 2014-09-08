@@ -34,27 +34,27 @@
 					  borderStyle="none"  
 					  height="100%" width="100%">
 			
-			<s:NavigatorContent id="dashNav" label="Dashboard">
-			</s:NavigatorContent>
-			
-			<!-- This is an compoent to expose the text from the articles 
-			effectively and coherently-->
-			<s:NavigatorContent id="lapdftextNav" label="Extract Text">
-				<lapdftext:LapdftextModule_xx label="Text Extraction" id="lapdftext" height="100%" width="100%"/>
-			</s:NavigatorContent>
+			<!--<s:NavigatorContent id="dashNav" label="Dashboard">
+			</s:NavigatorContent>-->
 			
 			<!-- This is an overview of the Documents in the system 
 			and users' annotations on them -->
 			<s:NavigatorContent id="digLibNav" label="Digital Library" height="100%" width="100%">
 				<digitalLibrary:DigitalLibraryModule label="Digital Library" id="digLib" height="100%" width="100%"/>
 			</s:NavigatorContent>
+
+			<!-- This is an compoent to expose the text from the articles 
+			effectively and coherently
+			<s:NavigatorContent id="lapdftextNav" label="Extract Text">
+				<lapdftext:LapdftextModule_xx label="Text Extraction" id="lapdftext" height="100%" width="100%"/>
+			</s:NavigatorContent>-->	
 			
-			<s:NavigatorContent id="modelNav" label="Designer">
-				<kefed:KefedDesignerModule label="KEfED Model" id="kefedModel" height="100%" width="100%"/>
+			<s:NavigatorContent id="modelNav" label="Experiment Design">
+				<kefed:KefedDesignerModule1 label="KEfED Model" id="kefedModel" height="100%" width="100%"/>
 			</s:NavigatorContent>
 			
-			<s:NavigatorContent id="dataNav" label="Data">
-			</s:NavigatorContent>			
+			<!--<s:NavigatorContent id="dataNav" label="Data">
+			</s:NavigatorContent>-->
 			
 		</mx:ViewStack>
 	</s:VGroup>
