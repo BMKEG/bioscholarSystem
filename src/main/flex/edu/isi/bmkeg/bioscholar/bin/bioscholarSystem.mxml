@@ -16,6 +16,15 @@
 		<bin:bioscholarSystemContext contextView="{this}" />
 	</fx:Declarations>
 	
+	<fx:Script>
+		<![CDATA[
+			import edu.isi.bmkeg.digitalLibrary.model.citations.ArticleCitation;
+			
+			public var currentArticleCitation:ArticleCitation;
+			
+		]]>
+	</fx:Script>
+	
 	<s:VGroup height="100%" width="100%" 
 			  paddingLeft="10" paddingRight="10" 
 			  paddingTop="10" paddingBottom="10">
@@ -50,7 +59,7 @@
 			</s:NavigatorContent>-->	
 			
 			<s:NavigatorContent id="modelNav" label="Experiment Design">
-				<kefed:KefedDesignerModule1 label="KEfED Model" id="kefedModel" height="100%" width="100%"/>
+				<kefed:KefedDesignerModule label="KEfED Model" id="kefedModel" height="100%" width="100%"/>
 			</s:NavigatorContent>
 			
 			<!--<s:NavigatorContent id="dataNav" label="Data">
