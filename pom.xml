@@ -38,7 +38,7 @@
 				<artifactId>flexmojos-maven-plugin</artifactId>
 				<extensions>true</extensions>
 				<configuration>
-					<sourceFile>edu/isi/bmkeg/kefed/bin/KefedDesignerApp2.mxml</sourceFile>
+					<sourceFile>edu/isi/bmkeg/bioscholar/bin/bioscholarSystem.mxml</sourceFile>
 					<swfVersion>11</swfVersion>
 					<compilerWarnings>
 						<warn-no-constructor>false</warn-no-constructor>
@@ -139,17 +139,17 @@
 			<artifactId>kefed-client-components</artifactId>
 		</dependency>
 
-                <dependency>
-                        <groupId>edu.isi.bmkeg</groupId>
-                        <type>swc</type>
-                        <artifactId>digitalLibraryClientComponents</artifactId>
-                </dependency>
+		<dependency>
+			<groupId>edu.isi.bmkeg</groupId>
+			<type>swc</type>
+			<artifactId>digitalLibraryClientComponents</artifactId>
+		</dependency>
 
-                <dependency>
-                        <groupId>edu.isi.bmkeg</groupId>
-                        <type>swc</type>
-                        <artifactId>lapdftextClientComponents</artifactId>
-                </dependency>
+		<dependency>
+			<groupId>edu.isi.bmkeg</groupId>
+			<type>swc</type>
+			<artifactId>lapdftextClientComponents</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.robotlegs</groupId>
