@@ -53,13 +53,13 @@
 			</s:NavigatorContent>
 
 			<!-- This is an compoent to expose the text from the articles 
-			effectively and coherently
+			effectively and coherently-->
 			<s:NavigatorContent id="lapdftextNav" label="Extract Text">
-				<lapdftext:LapdftextModule_xx label="Text Extraction" id="lapdftext" height="100%" width="100%"/>
-			</s:NavigatorContent>-->	
+				<lapdftext:LapdftextModule label="Text Extraction" id="lapdftext" height="100%" width="100%"/>
+			</s:NavigatorContent>	
 			
 			<s:NavigatorContent id="modelNav" label="Experiment Design">
-				<kefed:KefedDesignerModule label="KEfED Model" id="kefedModel" height="100%" width="100%"/>
+				<kefed:KefedDesignerModule2 label="KEfED Model" id="kefedModel" height="100%" width="100%"/>
 			</s:NavigatorContent>
 			
 			<!--<s:NavigatorContent id="dataNav" label="Data">
