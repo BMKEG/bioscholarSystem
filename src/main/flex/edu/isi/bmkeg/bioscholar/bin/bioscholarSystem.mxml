@@ -59,7 +59,7 @@
 			</s:NavigatorContent>	
 			
 			<s:NavigatorContent id="modelNav" label="Experiment Design">
-				<kefed:KefedDesignerModule2 label="KEfED Model" id="kefedModel" height="100%" width="100%"/>
+				<kefed:KefedDesignerModule label="KEfED Model" id="kefedModel" height="100%" width="100%"/>
 			</s:NavigatorContent>
 			
 			<!--<s:NavigatorContent id="dataNav" label="Data">
